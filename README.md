@@ -14,4 +14,4 @@ Taches réalisées : Aestorgs ,
 
 Technos utilisées : MongoDB , Reactsjs , Express, Javascripts ,
 
-Outils et ressources : Doc MongoDB , MDN , Doc Reactjs
+Outils et ressources : Doc MongoDB , MDN , Doc Reactjs , Doc Express

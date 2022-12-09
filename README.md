@@ -2,7 +2,7 @@
 
 
 
-Contexte: but du projet : crée un back et front , 
+Contexte: but du projet : crée un back et front de Vétérinaire, 
 
 Fonctionnalités attendues : ajouter un pets , ajouter une visite , afficher les visites , afichier les pets , ajouter un utilisateur ,afficher 
 

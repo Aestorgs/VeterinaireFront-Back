@@ -1,6 +1,8 @@
 import React, { useEffect } from "react";
 import { users } from "../main";
 import { Link } from "react-router-dom";
+
+// Affichage de visite
 export const Visits = () => {
   const { me } = React.useContext(users);
   const [visits, setVisits] = React.useState([]);

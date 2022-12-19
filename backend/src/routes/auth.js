@@ -2,6 +2,8 @@ const auth = require("express").Router();
 const { ObjectId } = require("mongodb");
 const { database } = require("../db/database");
 
+// Pour ce connecter utilisateur
+
 auth.post("/login", async (req, res) => {
   try {
     const auth = await database
@@ -21,6 +23,8 @@ auth.post("/login", async (req, res) => {
   }
 });
 
+// Pour enregister un utilisateur 
+
 auth.post("/register", async (req, res) => {
   try {
     const auth = await database.collection("owners").insertOne({
@@ -36,6 +40,8 @@ auth.post("/register", async (req, res) => {
     res.status(400).send(err.message);
   }
 });
+
+//Pour enregister un animaux 
 
 auth.post("/:id", async (req, res) => {
   try {
@@ -57,6 +63,8 @@ auth.post("/:id", async (req, res) => {
     console.log(err.message);
   }
 });
+
+// Pour afficher l'utilisateur 
 
 auth.get("/:id", async (req, res) => {
   try {

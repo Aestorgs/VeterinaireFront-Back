@@ -9,7 +9,7 @@ export const Register = () => {
   const [message, setMessage] = React.useState("");
 
   const navigate = useNavigate();
-
+// Afficher Pour Enregister et Envoyer des données
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {

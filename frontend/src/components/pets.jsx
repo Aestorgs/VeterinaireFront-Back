@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import { users } from "../main";
 import { Link } from "react-router-dom";
 
+// Afficher les Animaux 
 export const Pets = () => {
   const { me } = React.useContext(users);
   const [user, setUser] = React.useState([]);

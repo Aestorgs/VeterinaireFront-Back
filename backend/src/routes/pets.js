@@ -2,6 +2,7 @@ const pets = require("express").Router();
 const { ObjectId } = require("mongodb");
 const { database } = require("../db/database");
 
+// Afficher les animaux et utilisateur par id 
 pets.get("/:id", async (req, res) => {
   try {
     const pets = await database

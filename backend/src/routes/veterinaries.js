@@ -1,6 +1,7 @@
 const veterinaries = require("express").Router();
 const { database } = require("../db/database");
 
+// Afficher les vétérinaires
 veterinaries.get("/", async (req, res) => {
   try {
     const veterinaries = await database

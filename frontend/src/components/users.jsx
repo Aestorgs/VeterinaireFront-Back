@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 import { users } from "../main";
 
+// Affichage de utilisateur 
 export const Users = () => {
   const { me } = React.useContext(users);
   const [name, setName] = React.useState("");

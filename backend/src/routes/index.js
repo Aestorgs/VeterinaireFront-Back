@@ -3,7 +3,7 @@ const { auth } = require("./auth");
 const { pets } = require("./pets");
 const {veterinaries} = require("./veterinaries");
 
-
+// Pour utiliser les routes
 const router = require("express").Router();
 
 router.use("/visits", visits);

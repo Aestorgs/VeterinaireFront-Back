@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+// la pages Accueil
 export const Home = () => {
   return (
     <>

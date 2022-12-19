@@ -10,6 +10,7 @@ export const RendezVous = () => {
   const [visit_date, setVisit_date] = React.useState("");
   const [message, setMessage] = React.useState("");
 
+  // Affichage et Envoyer un Rendez-vous 
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {

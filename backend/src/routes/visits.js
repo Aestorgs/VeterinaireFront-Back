@@ -2,6 +2,8 @@ const visits = require("express").Router();
 const { ObjectId } = require("mongodb");
 const { database } = require("../db/database");
 
+
+// Afficher les visites 
 visits.get("/:id", async (req, res) => {
   try {
     const visites = await database
@@ -30,6 +32,7 @@ visits.get("/:id", async (req, res) => {
   }
 });
 
+// Envoyer une visites
 visits.post("/:id", async (req, res) => {
   try {
     const visites = await database.collection("owners").updateOne(

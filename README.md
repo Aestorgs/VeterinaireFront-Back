@@ -12,6 +12,6 @@ Durée : 1 semaine ,
 
 Taches réalisées : Aestorgs , 
 
-Technos utilisées : MongoDB , Reactsjs , Express, Javascripts ,
+Technos utilisées : MongoDB , Reactsjs , Express, Javascripts , Vite
 
 Outils et ressources : Doc MongoDB , MDN , Doc Reactjs , Doc Express
